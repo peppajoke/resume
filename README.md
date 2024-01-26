@@ -1,6 +1,6 @@
 
 # Jack Bauerle
-*An innovative Software Engineer and Leader, I've successfully transitioned from hands-on software engineering to steering key initiatives at Wayfair. My professional journey is marked by a commitment to excellence, strategic problem-solving, and leadership rooted in direct communication and empathetic mentorship. In my role as a Software Engineering Manager, I revamped product catalog ecosystems, adopted cutting-edge technologies, and cultivated high-performance teams. As a manager, I prioritize direct communication, psychological safety, and rapid experimentation in my management style, fostering an environment that empowers engineers to excel and find fulfillment.*
+*As an innovative Software Engineer and Leader, I've transitioned from hands-on engineering to drive scalable initiatives at Wayfair. My journey reflects a commitment to excellence, strategic problem-solving, and leadership centered on direct communication and empathetic mentorship. In the role of Software Engineering Manager, I championed scalability, implemented cutting-edge technologies, and cultivated high-performance teams.*
 
 ## Professional Experience
 
