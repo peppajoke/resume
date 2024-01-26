@@ -1,6 +1,6 @@
 
 # Jack Bauerle
-*As an innovative Software Engineer and Leader, I've transitioned from hands-on engineering to drive scalable initiatives at Wayfair. My journey reflects a commitment to excellence, strategic problem-solving, and leadership centered on direct communication and empathetic mentorship. In the role of Software Engineering Manager, I championed scalability, implemented cutting-edge technologies, and cultivated high-performance teams.*
+*As an innovative Software Engineer and Leader, I've transitioned from hands-on engineering to driving high scalability initiatives and managing high performance teams. My journey reflects a commitment to excellence, strategic problem-solving, and leadership centered on direct communication and empathetic mentorship.*
 
 ## Professional Experience
 
@@ -12,7 +12,7 @@
 - **Successfully delivered sprint goals**, managed stakeholder expectations, and facilitated professional development opportunities.
 
 #### Senior Software Engineer (2018-2019)
-- **Engineered backend C# microservices to scale Wayfair.com**, adapting to significant web traffic and product expansion.
+- **Engineered backend C# microservices** to scale Wayfair's massive product catalog, adapting to significant web traffic and product expansion.
 - **Innovated by adding customer context-specific capabilities**, allowing internal merchandisers to configure dynamic product presentations.
 
 #### Software Engineer (2016-2018)
@@ -38,5 +38,5 @@
 SQL, C#, JavaScript, React, Python 3, Aerospike/Redis/NoSQL, Kafka, Federated GraphQL.
 
 ## Education
-- Bachelors in Computer Science, Hartwick College
-- Pascack Hills Highschool
+- **Bachelors of Computer Science**, Hartwick College
+- **Graduate Diploma** Pascack Hills Highschool
