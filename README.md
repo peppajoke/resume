@@ -24,13 +24,13 @@
 - **Designed and built C# + Javascript + MSSQL web applications** for complex hospital revenue analytics.
 - **Collaborated directly with clients** on building bespoke analytics applications to fit their business needs.
 
-### Milliman Inc. 
-#### Software Engineer (2013-2014)
+### Milliman Inc. (2013-2014)
+#### Software Engineer
 - Implemented actuarial algorithms for pension payout calculation.
 - Built desktop applications in Visual Basic and MSSQL that solved unique business challenges.
 
-### Albright Electric
-#### Contract Web Developer (2013)
+### Albright Electric (2013)
+#### Contract Web Developer
 - Maintained company website using Javascript/jQuery/HTML/CSS.
 - 
 
