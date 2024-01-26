@@ -19,15 +19,18 @@
 - **Developed a PHP webstack time series metric logging framework**, enhancing internal app observation with minimal engineering effort.
 - **Revamped and rebuilt the supplier-facing product metadata editor**, empowering suppliers to configure products on Wayfair.com. Used PHP/JS+React/MSSQL/Redis
 
-### Valetude Health Software Engineer (2013-2016)
+### Valetude Health 
+#### Software Engineer (2013-2016)
 - **Designed and built C# + Javascript + MSSQL web applications** for complex hospital revenue analytics.
 - **Collaborated directly with clients** on building bespoke analytics applications to fit their business needs.
 
-### Milliman Inc. Software Engineer (2013-2014)
+### Milliman Inc. 
+#### Software Engineer (2013-2014)
 - Implemented actuarial algorithms for pension payout calculation.
 - Built desktop applications in Visual Basic and MSSQL that solved unique business challenges.
 
-### Albright Electric Contract Web Developer (2013)
+### Albright Electric
+#### Contract Web Developer (2013)
 - Maintained company website using Javascript/jQuery/HTML/CSS.
 - 
 
