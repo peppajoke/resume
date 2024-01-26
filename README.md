@@ -39,4 +39,4 @@ SQL, C#, JavaScript, React, Python 3, Aerospike/Redis/NoSQL, Kafka, Federated Gr
 
 ## Education
 - **Bachelors of Computer Science**, Hartwick College
-- **Graduate Diploma** Pascack Hills Highschool
+- **Graduate Diploma**, Pascack Hills Highschool
