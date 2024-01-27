@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: 'Consolas', 'Courier New', monospace;
+      font-family: Consolas, 'Courier New', monospace; /* Similar to VS Code font */
       background-color: #1e1e1e; /* Dark background to emulate VS Code dark mode */
       color: #d4d4d4;
       margin: 20px;
@@ -15,22 +15,25 @@
     }
 
     h1 {
-      color: #4ec9b0; /* Function-like coloring */
-      border-bottom: 2px solid #4ec9b0;
-      padding-bottom: 5px;
+      color: #DBDB90; /* Function-like coloring */
     }
 
     h2 {
-      color: #c586c0; /* Keyword-like coloring */
+      color: #3795D4; /* Keyword-like coloring */
       margin-top: 20px;
-      border-bottom: 1px solid #3e4452;
       padding-bottom: 5px;
     }
 
-    h3, h4 {
-      color: #569cd6; /* Class-like coloring */
+    h3
+	{
+      color: #3795D4;
+	  margin-top: 15px;
+	  padding-bottom: 5px;
+	}
+	
+	h4 {
+      color: #36BAA3; /* Class-like coloring */
       margin-top: 15px;
-      border-bottom: 1px solid #3e4452;
       padding-bottom: 5px;
     }
 
@@ -45,15 +48,15 @@
 
     li {
       margin-bottom: 10px;
-      color: #666a72; /* Reverting to original text color */
+      color: #9BD9F5; /* Reverting to original text color */
     }
 
     .red-highlight {
-      color: #d16969; /* Red color for specific technologies, similar to error highlighting */
+      color: #36BAA3; /* Red color for specific technologies, similar to error highlighting */
     }
 
     .highlight {
-      color: #abb2bf; /* Reverting to original highlight color */
+      color: #499CD5; /* Reverting to original highlight color */
     }
 
     p {
@@ -66,48 +69,68 @@
     }
 
     .section-box {
-      background-color: #252526; /* Darker box background, similar to editor background */
+    
+	  border-width: 5px;
       padding: 15px;
       margin-bottom: 20px;
       border-radius: 5px;
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     }
+	
+	    body {
+        background-color: #1e1e1e; /* VS Code dark mode background color */
+        font-family: Consolas, 'Courier New', monospace; /* Similar to VS Code font */
+        color: #d4d4d4; /* Default text color in VS Code dark mode */
+        margin: 0;
+        padding: 20px;
+    }
+    pre {
+        background-color: #1e1e1e; /* Matching VS Code dark mode background */
+        border: none; /* No border */
+        margin: 0; /* Reset default margin */
+        padding: 10px; /* Some padding */
+        border-radius: 5px; /* Optional: for rounded corners */
+    }
+    code {
+        color: #6A9955; /* VS Code comment color in dark mode */
+        font-size: 1em; /* Adjust as needed */
+    }
   </style>
   <title>Jack Bauerle's Resume</title>
 </head>
 <body>
-
+<code>
   <h1 id="jack-bauerle">Jack Bauerle</h1>
-  <p><em>Software Engineer and Leader, experienced in extreme scalability and team management, with a focus on strategic problem-solving and empathetic leadership.</em></p>
-  <p> Cell: 857-523-6303 | Email: jackcbauerle@gmail.com</p>
-  <p><strong>Linkedin:</strong> <span class="highlight">linkedin.com/in/jackbauerle</span> | Github: <span class="highlight">github.com/peppajoke</span> </p>
-  <p><strong>Location:</strong> Based in Boston/Philadelphia, open to remote roles and all US locations.</p>
-
+  <p>// Software Engineer and Leader, experienced in extreme scalability and team management, with a focus on strategic problem-solving and empathetic leadership.</p>
+  <p>// Cell: 857-523-6303 | Email: jackcbauerle@gmail.com</p>
+  <p>// Linkedin: linkedin.com/in/jackbauerle | Github: github.com/peppajoke</p>
+  <p>// Location: Based in Boston/Philadelphia, open to remote roles and all US locations.</p>
+</code>
     <div class="section-box">
       <h3 id="wayfair-2016-2024">Wayfair (2016-2024)</h3>
       <h4 id="software-engineering-manager-2019-2024">Software Engineering Manager (2019-2024)</h4>
       <ul>
-        <li><strong class="highlight">Led the Catalog Edge team</strong>, revamping and scaling the product catalog ecosystem and implementing 8 <strong class="red-highlight">Federated GraphQL</strong> interfaces to address data access problems.</li>
-        <li><strong class="highlight">Mentored and managed a dynamic team</strong>, emphasizing scalability, performance, and stability of backend systems.</li>
-        <li><strong class="highlight">Successfully delivered sprint goals</strong>, managed stakeholder expectations, and facilitated professional development opportunities.</li>
-		<li><strong class="highlight">Managed 29 software engineers across 3 teams</strong> over the course of five years.</li>
-		<li><strong class="highlight">Reduced cloud compute costs by $2.4m per year</strong> by right sizing hardware configurations, leveraging <strong class="red-highlight">horizontal autoscaling</strong>, and simplifying existing systems.</li>
+        <li><span class="highlight">Led the Catalog Edge team</span>, revamping and scaling the product catalog ecosystem and implementing 8 <span class="red-highlight">Federated GraphQL</span> interfaces to address data access problems.</li>
+        <li><span class="highlight">Mentored and managed a dynamic team</span>, emphasizing scalability, performance, and stability of backend systems.</li>
+        <li><span class="highlight">Successfully delivered sprint goals</span>, managed stakeholder expectations, and facilitated professional development opportunities.</li>
+		<li><span class="highlight">Managed 29 software engineers across 3 teams</span> over the course of five years.</li>
+		<li><span class="highlight">Reduced cloud compute costs by $2.4m per year</span> by right sizing hardware configurations, leveraging <span class="red-highlight">horizontal autoscaling</span>, and simplifying existing systems.</li>
       </ul>
     </div>
 
     <div class="section-box">
       <h4 id="senior-software-engineer-2018-2019">Senior Software Engineer (2018-2019)</h4>
       <ul>
-        <li><strong class="highlight">Engineered backend microservices using <strong class="red-highlight">C#</strong></strong>, enhancing Wayfair's massive product catalog to adapt to significant web traffic and product expansion.</li>
-        <li><strong class="highlight">Innovated by adding customer context-specific capabilities</strong>, allowing internal merchandisers to configure dynamic product presentations.</li>
+        <li><span class="highlight">Engineered backend microservices using <span class="red-highlight">C#</span></span>, enhancing Wayfair's massive product catalog to adapt to significant web traffic and product expansion.</li>
+        <li><span class="highlight">Innovated by adding customer context-specific capabilities</span>, allowing internal merchandisers to configure dynamic product presentations.</li>
       </ul>
     </div>
 
     <div class="section-box">
       <h4 id="software-engineer-2016-2018">Software Engineer (2016-2018)</h4>
       <ul>
-        <li><strong class="highlight">Developed a time series metric logging framework using <strong class="red-highlight">PHP</strong> and <strong class="red-highlight">InfluxDB</strong></strong>, enhancing internal application observation with minimal engineering effort.</li>
-        <li><strong class="highlight">Revamped and rebuilt the supplier-facing product metadata editor</strong>, empowering suppliers to configure products on Wayfair.com using <strong class="red-highlight">PHP</strong>, <strong class="red-highlight">JavaScript</strong>, <strong class="red-highlight">React</strong>, <strong class="red-highlight">MSSQL</strong>, and <strong class="red-highlight">Redis</strong>.</li>
+        <li><span class="highlight">Developed a time series metric logging framework using <span class="red-highlight">PHP</span> and <span class="red-highlight">InfluxDB</span></span>, enhancing internal application observation with minimal engineering effort.</li>
+        <li><span class="highlight">Revamped and rebuilt the supplier-facing product metadata editor</span>, empowering suppliers to configure products on Wayfair.com using <span class="red-highlight">PHP</span>, <span class="red-highlight">JavaScript</span>, <span class="red-highlight">React</span>, <span class="red-highlight">MSSQL</span>, and <span class="red-highlight">Redis</span>.</li>
       </ul>
     </div>
 
@@ -115,8 +138,8 @@
       <h3 id="valetude-health-2013-2016">Valetude Health (2013-2016)</h3>
       <h4 id="software-engineer">Software Engineer</h4>
       <ul>
-        <li><strong class="highlight">Designed and built web apps</strong> using <strong class="red-highlight">C#</strong>, <strong class="red-highlight">JavaScript</strong>, and <strong class="red-highlight">MSSQL</strong> for complex hospital revenue analytics.</li>
-        <li><strong class="highlight">Collaborated directly with clients</strong> on building bespoke analytics applications to fit their business needs.</li>
+        <li><span class="highlight">Designed and built web apps</span> using <span class="red-highlight">C#</span>, <span class="red-highlight">JavaScript</span>, and <span class="red-highlight">MSSQL</span> for complex hospital revenue analytics.</li>
+        <li><span class="highlight">Collaborated directly with clients</span> on building bespoke analytics applications to fit their business needs.</li>
       </ul>
     </div>
 
@@ -124,21 +147,21 @@
       <h3 id="milliman-inc-2013-2014">Milliman Inc. (2013-2014)</h3>
       <h4 id="software-engineer">Software Engineer</h4>
       <ul>
-        <li><strong class="highlight">Implemented actuarial algorithms</strong> for pension payout calculation.</li>
-        <li><strong class="highlight">Built desktop applications</strong> in Visual Basic and <strong class="red-highlight">MSSQL</strong> that solved unique business challenges.</li>
+        <li><span class="highlight">Implemented actuarial algorithms</span> for pension payout calculation.</li>
+        <li><span class="highlight">Built desktop applications</span> in Visual Basic and <span class="red-highlight">MSSQL</span> that solved unique business challenges.</li>
       </ul>
     </div>
   
     <div class="section-box">
       <h2 id="technical-proficiencies">Technical Proficiencies</h2>
-      <p><strong class="highlight">SQL, C#, JavaScript, React, Python 3, Aerospike, Redis, NoSQL, Kafka, Federated GraphQL, Datadog, InfluxDB, Graphite, Kubernetes, Docker, GCP</strong></p>
+      <p><span class="highlight">SQL, C#, JavaScript, React, Python 3, Aerospike, Redis, NoSQL, Kafka, Federated GraphQL, Datadog, InfluxDB, Graphite, Kubernetes, Docker, GCP</span></p>
     </div>
 
     <div class="section-box">
       <h2 id="education">Education</h2>
       <ul>
-        <li><strong class="highlight">Bachelor's Degree in Information Science</strong>, Hartwick College</li>
-        <li><strong class="highlight">Diploma</strong>, Pascack Hills High School</li>
+        <li><span class="highlight">Bachelor's Degree in Information Science</span>, Hartwick College</li>
+        <li><span class="highlight">Diploma</span>, Pascack Hills High School</li>
       </ul>
     </div>
   </body>
